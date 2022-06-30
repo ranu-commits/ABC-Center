@@ -1,0 +1,23 @@
+.course-banner{   
+    background-color: #011f41;
+    height: 300px;      
+    background-repeat: no-repeat;    
+}
+.course-banner img{
+    margin: 5% 20% 10% 56% ;
+    width: 80vh;
+    height: 200px;
+}
+
+.course-hero-text{
+    text-align: center;
+    position: absolute;
+   top: 30%;
+   right: 50%;
+   left:5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    color: #f8eff7;
+    text-shadow:2px 2px 2px #161414;
+}
+

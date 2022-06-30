@@ -1,0 +1,31 @@
+
+.cd-hero-banner{
+    background-color: rgb(5, 116, 116);
+    display: grid;
+    grid-template-columns: 610px 300px;
+    grid-template-rows: 350px;
+    /* grid-gap: 20vh; */
+    padding: 60px 10px 10px 50px;
+    
+}
+.cd-img img{
+    width: 400px;
+    height: 300px;
+    /* padding: ; */
+}
+
+.cd-head{
+    font-weight: 900;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.cd-m-sec{
+    /* background-color: red; */
+    margin: 8vh;
+}
+/* .cs-m-sec li{ */
+    /* padding: 10vh;
+    list-style: disc;
+
+} */

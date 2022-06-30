@@ -1,0 +1,26 @@
+table,td,th{
+    border: 1px solid black;
+    text-align: center;
+    width: 100;
+
+}
+
+th {
+    background-color: #c40895;
+    color: white;
+    height:50px;
+    padding: 10px 10px 0 10px;
+    font-size: 30px;
+   
+    
+  }
+  td{
+      background-color: rgb(231, 182, 223);
+      padding: 7px;
+      font-weight: 500;
+   
+
+  }
+
+
+

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="StyleSheet\common_style.css">
+  <link rel="stylesheet" href="StyleSheet\Contact.css">
+  <link rel="stylesheet" href="StyleSheet\Indexpage.css">
+  <script src="formvalidation.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    function gotofunction() {
+      window.location = "LeadgenerationPage.html";
+    }
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      $("but").click(function () {
+        $(".s-page").load("./succesfultext.html");
+      });
+    });
+  </script>
+  
+</head>
+
+
+<body>
+
+  <nav id="myHeader">
+    <div class="logo">
+      <div class="logo"><a href="Homepage.html">
+          <img src="Media\logo.png" alt="ABC Learning Centre"></a>
+      </div>
+
+      <div class="nav-links">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="Homepage.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutPage.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="ContactPage.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Coursespage.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="SitemapPage.html">Site Map</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="PrivcypolicyPage.html">Privacy Policy</a>
+          </li>
+          <li class="nav-btn">
+            <button type="button" onclick="gotofunction()">Sign Up</button>
+          </li>
+
+        </ul>
+      </div>
+  </nav>
+  <div class="hero-banner">
+    <img
+      src="https://media.istockphoto.com/photos/business-network-concept-customer-support-shaking-hands-picture-id1256603011?b=1&k=20&m=1256603011&s=170667a&w=0&h=qAWHyHa53OtejTsSOx-xEPoVWA9p-uG2jpxEkzAK7Wg="
+      alt="Contact US">
+  </div>
+
+  <div class="main">
+
+    <div class="contact-detail-sec">
+
+      <div class="cont-sect-box">
+        <div class="cont-sect-img">
+          <img
+            src="data:image/png;base64,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">
+        </div>
+        <h5> Chat</h5>
+        <p>Average Time Less Then 1 min</p>
+      </div>
+
+      <div class="cont-sect-box">
+        <div class="cont-sect-img">
+          <img src="https://cdn-icons-png.flaticon.com/128/33/33308.png">
+        </div>
+        <h5>Support</h5>
+        <p>support@abclearning.com </p>
+      </div>
+
+      <div class="cont-sect-box">
+        <div class="cont-sect-img">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAASFBMVEX///8AAAA/Pz+/v7/Pz88vLy9ISEjIyMj6+vrz8/PY2Nju7u4GBgaFhYUXFxc7OztTU1NYWFhwcHBbW1uMjIyqqqpLS0utra3/lSnwAAACnUlEQVR4nO3d0XLaMBCFYZsSDCEhhSbp+79py3TSkhrZq+xKOmP/5zIKHH8Ewo4u5K4jhBBCCCGEEEL8efwWmMdWiv3zqQ/N6XnfwnF4iWVcszk0gHyPd/T9ub5jKOHo+6E65FIGcqkO2ZWB7KpDNmUgGyBAgAApD3nwTYsPMhBne+BTtW0HEhIgRZ+qbTuQkAAp+lRt24Fk594+XHJA2t780ta0MDe2Be3cGfbhPkGSr69p4W5Cdu4s+3ClISE7d5Z9uPIQ/86daR+uAsS9c2fah6sB8e7cmfbhakC8O3emkhoQ7xcMECBAVgj5NNDVGBojd+7yX1/NDiBqHUDUOoCodQBR6wCi1vGFEt+sJQSpsQAECBAgQIAAAbJWyGKGRs0OIGodQNQ6gKh1AFHrAKLWseZZazHTLxAgQNovAAECBAiQ0cJihkbNDiBqHUDUOoCodQBR6wCi1rHmWWsx0y8QIEDaLwABAgQIkNHCYoZGzQ4gah1A1DqAqHUAUesAotbx1ZKJu0eMT5SThcycWjc6UU4VMn9q3X8nyqlCDKfWnb0dNSCmU+sGX0cViOnUuouvowrEdGrdztcRCbm93uRlJZP/mkQeppd8ByXfKE5IsiMScvuZTn50nZBkRySkO//9+Y/kI5yQZEco5PCxNPH15oWkOkIh3f71OomcXicGDi8k1REL6a6z4fQIaDtRLr8jHJL1iCpfF/mXlf8IICEBAqRQgAApFCAqkOMwHpBs991KPiJ/4U6GYxZjW+i2jRHZbeev/yNvT62vdipPb+a/h7Tjt8T6NxF+X/2JcUfl2Po652P7xBe6Y25kbFsqi4Es5q2l/2F/tzmW8+9X/Qvxp9WhPaK8Z4wo3b+hUS2ZQyMhhBBCCCGEkPXlFyvwQLUjb20+AAAAAElFTkSuQmCC">
+        </div>
+        <h5>Corporate</h5>
+        <p>corporate@abclearning.com </p>
+      </div>
+
+    </div>
+
+    <h3 style="text-align: center;font-size: 50px;line-height: 150px;">Connect with Us</h3>
+
+    <div class="form-container">
+      <form aciton="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+
+        <div class="formdesign" id="name">
+          Name: <input type="text" name="fname" required>
+          <b>
+            <div class="formerror"> </div>
+          </b>
+        </div>
+
+        <div class="formdesign" id="email">
+          Email: <input type="email" name="femail" required>
+          <b>
+            <div class="formerror"> </div>
+          </b>
+        </div>
+
+        <div class="formdesign" id="phone">
+          Phone: <input type="phone" name="fphone" required>
+          <b>
+            <div class="formerror"></div>
+          </b>
+        </div>
+
+        <div class="formdesign" id="pass">
+          Password: <input type="password" name="fpass" required>
+          <b>
+            <div class="formerror"></div>
+          </b>
+        </div>
+
+        <div class="formdesign" id="cpass">
+          Confirm Password: <input type="password" name="fcpass" required>
+          <b>
+            <div class="formerror"></div>
+          </b>
+        </div>
+
+        <input class="but" type="submit" value="Sign Up">
+
+      </form>
+
+    </div>
+
+    <h3
+      style="color:#3d043f;font-weight:600;font-size:50px;text-align:left;margin:0 50vh 0 10vh; border-bottom: 2px solid black;">
+      Our Presence</h3>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7600363012434!2d103.89030351475395!3d1.3196895990374817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da18188d9f92a7%3A0x70540d5d90a2831!2s11%20Eunos%20Rd%208%2C%2007%20Lifelong%20Learning%20Institute%2C%20Singapore%20408601!5e0!3m2!1shi!2sin!4v1614052761141!5m2!1shi!2sin"></iframe>
+
+    <!-- </div> -->
+
+
+
+  </div>
+  <footer class="footer-section">
+    <div class="upper-footer">
+      <div class="logo">
+        <a href="Homepage.html">
+          <img src="Media\logo.png" alt="ABC Learning Centre">
+        </a>
+
+      </div>
+      <div class="upper-footer-right">
+        <h2>Follow Us:</h2>
+
+        <div class="icons">
+          <a href="https://twitter.com/"><i><img src="Media\twitter.png"></i></a>
+          <a href="https://facebook.com/"><i><img src="Media\facebook.png"></i></a>
+          <a href="https://instagram.com/"><i><img src="Media\instagram.png"></i></a>
+          <a href="https://youtube.com/"><i><img src="Media\youtube.png"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer-bottom-line">
+      <p>Copyright &copy; ABC learning 2020. All rights reserved.</p>
+    </div>
+  </footer>
+
+  
+
+  <script>
+    window.onscroll = function () { myFunction() };
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+
+
+  </script>
+
+
+</body>
+
+</html>
